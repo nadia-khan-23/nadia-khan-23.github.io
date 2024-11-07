@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nadia Khan - Portfolio</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: arial, sans-serif;
+        }
+
+        /* Header */
+        header {
+            font-size: 60px !important;
+            font-family: "Rubik Bubbles", sans-serif !important;
+            background-color: #ffe9f3;
+            color: #fcf8f9 !important;
+            text-align: center;
+            text-shadow: 1px 1px 5px #bbc5f8 !important;
+        }
+
+        /* Navbar */
+        nav {
+            background-color: #cfd7fd;
+            color: white;
+            overflow: hidden;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            padding: 10px 15px;
+            display: block;
+            color: #333;
+        }
+
+        nav ul li a:hover {
+            background-color: #ddd;
+            border-radius: 4px;
+        }
+
+        /* Main Section */
+        .container {
+            padding: 40px;
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        /* Sections */
+        .section {
+            display: none;
+            padding: 20px;
+            background-color: #ffe9f3;
+            border-radius: 8px;
+        }
+
+        #about {
+            display: block; /* Show About section by default */
+        }
+
+        .section img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .section p {
+            font-size: 16px;
+            line-height: 1.5;
+            color: #333;
+        }
+
+        footer {
+            background-color: #bbc5f8;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 14px;
+            margin-top: 20px;
+        }
+        h3 {
+            font-weight: bold;
+            font-size: 18px;
+            margin-top: 20px;
+        }
+        ul {
+            margin-left: 20px;
+            list-style-type: disc;
+        }
+
+        li {
+            text-align: left; 
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        Nadia Khan
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#" onclick="showSection('about')">About Me</a></li>
+            <li><a href="#" onclick="showSection('career')">Career</a></li>
+            <li><a href="#" onclick="showSection('education')">Education</a></li>
+            <li><a href="#" onclick="showSection('hobbies')">Hobbies</a></li>
+            <li><a href="#" onclick="showSection('projects')">Projects</a></li>
+            <li><a href="#" onclick="showSection('contact')">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- About Section -->
+        <section id="about" class="section">
+            <img src="my-headshot.jpg" alt="Headshot of Nadia Khan">
+            <h2>About Me</h2>
+            <p>Hello! I'm Nadia Khan. I'm a fifth year undergrad student working towards my Bachelor of Commerce specializing in Business Technology. I'm an avid reader, amateur chef, and I adore cute furry animals. I have four incredible internships in my belt and tons of fresh ideas. I am always looking for new ways to optimize work flow, organization, and make work easy and fun for everyone. I bring a can-do attitude with me everywhere I go and never stop being ready to learn. Welcome to my portfolio site!</p>
+        </section>
+
+        <!-- Career Section -->
+        <section id="career" class="section">
+            <h2>Career Experiences</h2>
+            <body>
+
+                <h3>Information Officer | Ontario Public Service: Ministry of Education | 2024</h2>
+                <ul>
+                    <li>Assisted with the migration of content from PDF to digital format</li>
+                    <li>Provided support for the editing, posting, and organization of curriculum content and resources (guides, tables, help videos, etc.) to the ministry's website</li>
+                    <li>Mapped content and created structure for content entry using content management system</li>
+                    <li>Used software to add video resources to the ministry's website</li>
+                    <li>Ensured that produced content is AODA-compliant</li>
+                    <li>Contributed input to continuous improvement of existing business processes in order to improve efficiencies</li>
+                    <li>Engaged in collaborative design and problem-solving tasks and contributed to the planning, design, and vision of new resource pages</li>
+                </ul>
+            
+                <h3>Office + Culture Operations Coordinator | Relay Financial | 2022</h2>
+                <ul>
+                    <li>Determined what was needed to support a hybrid work approach, and implemented the solutions needed to supplement and support virtual as well as in-office work</li>
+                    <li>Assisted in the audio and visual setup of bi-weekly town hall meetings</li>
+                    <li>Led the planning, budget management, and execution of both physical and virtual, culture-boosting company events (team outings, celebrations and socials, etc.)</li>
+                    <li>Managed the daily operations of the facility base that contribute to workplace culture (e.g., site coordination, office inventory, capacity and space planning, food and drink supply, in-office event coordination, etc.)</li>
+                    <li>Helped coordinate the use of our office space (e.g., helped employees, agents, and customers navigate the space, coordinate meeting rooms as needed, support AV/tech, etc.)</li>
+                    <li>Sourced and partnered with external vendors (managing service agreements, purchase orders, etc.) to bring to life our intended virtual and in-office experience</li>
+                </ul>
+            
+                <h3>E-Commerce Advisor | The Ontario Chamber of Commerce | 2022</h2>
+                <ul>
+                    <li>Planned, executed, and facilitated outreach and partnership development activities with the chamber network, businesses, post-secondary institutions, and delivery partners</li>
+                    <li>Responded to questions related to digital adoption and the Canada Digital Adoption Program</li>
+                    <li>Supported businesses with application completion</li>
+                    <li>Tracked outcomes, maintained charts, and created reports</li>
+                    <li>Used the digital tool kit provided to support businesses interested in improving their digital adoption</li>
+                    <li>Guided businesses through digital adoption options</li>
+                </ul>
+            
+            </body>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <h2>Education</h2>
+            <h3>Bachelor of Commerce | 2020-2025 | Toronto Metropolitan University</h3>
+                <p>School: Ted Rogers School of Management</p>
+                <p>Major: Business Technology Management</p>
+                
+            <h3>Ontario Secondary School Diploma | 2016-2020 | Holy Name of Mary C.S.S</h3>
+                <p>Specialist High Skills Major: Business Women Leaders</p>
+                <p>Awards: Honors, Ontario Scholars List, Business Certificate</p>    
+        </section>
+
+        <!-- Hobbies Section -->
+        <section id="hobbies" class="section">
+            <h2>Hobbies</h2>
+            <p>to be filled with info about my hobbies.</p>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <p>to be filled with info about my projects.</p>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <div class="contact-container">
+        
+                <div class="contact-item">
+                    <strong>LinkedIn:</strong> 
+                    <a href="https://www.linkedin.com/in/nadia-khann/" target="_blank">linkedin.com/in/nadia-khann</a>
+                </div>
+        
+                <div class="contact-item">
+                    <strong>Email:</strong> 
+                    <a href="mailto:nadiakhan.02@hotmail.com">nadiakhan.02@hotmail.com</a>
+                </div>
+        
+                <div class="contact-item">
+                    <strong>Cell:</strong> 
+                    <span>647-704-3044</span>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2024 Nadia Khan. All Rights Reserved.
+    </footer>
+
+    <!-- JavaScript to show different sections -->
+    <script>
+        function showSection(sectionId) {
+            // Hide all sections
+            document.querySelectorAll('.section').forEach(section => {
+                section.style.display = 'none';
+            });
+
+            // Show the selected section
+            document.getElementById(sectionId).style.display = 'block';
+        }
+    </script>
+
+</body>
+</html>
