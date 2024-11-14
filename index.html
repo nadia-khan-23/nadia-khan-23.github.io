@@ -135,6 +135,68 @@
             color: #bbc5f8;
             margin-bottom: 10px;
         }
+        .education-box {
+            background-color: #fcf8f9;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px #cfd7fd;
+            transition: transform 0.3s;
+        }
+
+        .education-box:hover {
+            transform: translateY(-5px);
+        }
+
+        .education-title {
+            font-size: 20px;
+            font-weight: bold;
+            color: #bbc5f8;
+            margin-bottom: 10px;
+        }
+        /* Hobbies Section */
+.hobbies-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.hobby-card {
+    background-color: #fcf8f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(207, 215, 253, 0.6);
+    text-align: center;
+    padding: 20px;
+    width: 250px;
+    transition: transform 0.3s;
+}
+
+.hobby-card:hover {
+    transform: translateY(-5px);
+}
+
+.hobby-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.hobby-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #bbc5f8;
+    margin-bottom: 10px;
+}
+
+.hobby-card p {
+    font-size: 14px;
+    color: #333;
+    line-height: 1.5;
+}
+
     </style>
 </head>
 <body>
@@ -169,7 +231,6 @@
         <!-- Career Section -->
         <section id="career" class="section">
             <h2>Career Experiences</h2>
-        
             <body>
                 <div class="career-box">
                     <div class="career-title">Information Officer | Ontario Public Service: Ministry of Education | 2024</div>
@@ -214,20 +275,43 @@
         <!-- Education Section -->
         <section id="education" class="section">
             <h2>Education</h2>
-            <h3>Bachelor of Commerce | 2020-2025 | Toronto Metropolitan University</h3>
+            <body>
+                <div class="education-box">
+                    <div class="education-title">Bachelor of Commerce | 2020-2025 | Toronto Metropolitan University</div>
                 <p>School: Ted Rogers School of Management</p>
                 <p>Major: Business Technology Management</p>
-                
-            <h3>Ontario Secondary School Diploma | 2016-2020 | Holy Name of Mary C.S.S</h3>
+                </div>
+
+                <div class="education-box">
+                    <div class="education-title">Ontario Secondary School Diploma | 2016-2020 | Holy Name of Mary C.S.S</div>
                 <p>Specialist High Skills Major: Business Women Leaders</p>
-                <p>Awards: Honors, Ontario Scholars List, Business Certificate</p>    
+                <p>Awards: Honors, Ontario Scholars List, Business Certificate</p>  
+                </div>
+            </body>
         </section>
 
-        <!-- Hobbies Section -->
+       <!-- Hobbies Section -->
         <section id="hobbies" class="section">
             <h2>Hobbies</h2>
-            <p>to be filled with info about my hobbies.</p>
+            <div class="hobbies-container">
+                <div class="hobby-card">
+                    <img src="image2.png" alt="Book icon for reading hobby">
+                    <div class="hobby-title">Reading</div>
+                    <p>I love exploring different genres, from mysteries to self-help, and always have a book by my side.</p>
+                </div>
+                <div class="hobby-card">
+                    <img src="hobby2.jpg" alt="Chef icon for cooking hobby">
+                    <div class="hobby-title">Cooking</div>
+                    <p>Experimenting in the kitchen is my creative outlet, especially when trying new recipes.</p>
+                </div>
+                <div class="hobby-card">
+                    <img src="hobby3.jpg" alt="Dog icon for animal lover hobby">
+                    <div class="hobby-title">Animal Lover</div>
+                    <p>I'm passionate about animal welfare and enjoy spending time with my pets and other animals.</p>
+                </div>
+            </div>
         </section>
+
 
         <!-- Projects Section -->
         <section id="projects" class="section">
